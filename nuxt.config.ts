@@ -8,4 +8,11 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      bodyAttrs: {
+        class: 'bg-slate-900',
+      },
+    },
+  },
 })
