@@ -2,12 +2,14 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
+
   app: {
     head: {
       bodyAttrs: {
@@ -15,4 +17,6 @@ export default defineNuxtConfig({
       },
     },
   },
+
+  modules: ["@nuxt/icon"]
 })
