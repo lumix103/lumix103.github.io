@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   app: {
     head: {
       bodyAttrs: {
-        class: 'bg-slate-900',
+        class: 'bg-mirage-950',
       },
     },
   },
