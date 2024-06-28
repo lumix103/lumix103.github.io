@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: ["~/assets/css/main.css"],
 
   postcss: {
     plugins: {
@@ -13,10 +13,10 @@ export default defineNuxtConfig({
   app: {
     head: {
       bodyAttrs: {
-        class: 'bg-mirage-950',
+        class: "bg-mirage-950",
       },
     },
   },
 
-  modules: ["@nuxt/icon"]
-})
+  modules: ["@nuxt/icon", "@nuxtjs/tailwindcss"],
+});
