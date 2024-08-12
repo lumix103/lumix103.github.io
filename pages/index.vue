@@ -163,7 +163,7 @@
             to="October 2019"
             title="Discord Bot"
             desc="A personalized Discord Bot built for the needs of my server."
-            redirect="https://github.com/lumix103/soup-kitchen"
+            redirect="https://github.com/lumix103/PyBrainFuck"
             ,
             :keywords="['Node.JS', 'JavaScript', 'Discord API']"
           />
