@@ -1,7 +1,13 @@
 <template>
-  <div class="m-4 text-silver-50 antialiased">
+  <div class="flex min-h-screen flex-col text-silver-50 antialiased">
+    <Navbar />
+
     <NuxtLayout>
-      <NuxtPage />
+      <div class="flex-1 *:p-2">
+        <NuxtPage />
+      </div>
     </NuxtLayout>
+
+    <Footer />
   </div>
 </template>
