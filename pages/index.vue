@@ -62,7 +62,14 @@
     />
   </section>
   <section id="projects" class="relative flex flex-col gap-4">
-    <h1 class="text-3xl font-bold">Projects</h1>
+    <div>
+      <h1 class="text-3xl font-bold">Projects</h1>
+      <p class="font-thin">
+        Check out more of my projects on my
+        <a href="https://github.com/lumix103" class="underline">Github</a>
+      </p>
+    </div>
+
     <div v-for="(project, index) in projects" :key="index">
       <Card>
         <h2 class="px-2 pt-2 font-bold">

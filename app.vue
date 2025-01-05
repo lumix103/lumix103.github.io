@@ -1,5 +1,7 @@
 <template>
-  <div class="flex min-h-screen flex-col text-silver-50 antialiased">
+  <div
+    class="min-w-screen flex min-h-screen flex-col text-silver-50 antialiased md:mx-auto md:w-1/2"
+  >
     <Navbar />
 
     <NuxtLayout>
